@@ -48,11 +48,11 @@ fi
 while [[ $# -gt 0 ]]; do
   case $1 in
     -p|--printable)
-        export HOMM3_PRINTABLE=1
+        export RTW_PRINTABLE=1
         shift
         ;;
     -n|--no-bg)
-        export HOMM3_NO_ART_BACKGROUND=1
+        export RTW_NO_ART_BACKGROUND=1
         shift
         ;;
     -h|--help)

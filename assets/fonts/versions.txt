@@ -1,3 +1,0 @@
-in Gentoo notation, because copied from there
-
-media-fonts/liberation-fonts 2.1.5

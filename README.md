@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Heroes of Might & Magic III: The Board Game<br>Rule Book Rewrite Project</h1>
+  <h1>Rome Total War: The Board Game<br>Rule Book Rewrite Project</h1>
 
   <p align="center">
     <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white">
@@ -7,120 +7,7 @@
   </p>
 </div>
 
-**Join us [on Discord](https://discord.gg/khV8Ckw8RD) to help with translating or just to get in touch!**
-
-<table>
-    <thead>
-        <tr>
-            <th>Language</th>
-            <th colspan=2 align="center">Progress</th>
-            <th colspan=2 align="center">Version 1.3 🪨<br>(Stable)</th>
-            <th colspan=3 align="center">Latest Build ⚗️<br>(Experimental)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="center">🌍</td>
-            <td align="center">✍️<br>Text</td>
-            <td align="center">🏞️<br>Images</td>
-            <td align="center">🖥️<br>Digital</td>
-            <td align="center">🖨️<br>Printable</td>
-            <td align="center">🖥️<br>Digital</td>
-            <td align="center">🖨️<br>Printable</td>
-            <td align="center">🤑<br>Economy Printable</td>
-        </tr>
-        <tr>
-            <td>🇬🇧 English</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_English_Rules_Rewrite_1_3.pdf">download</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_English_Rules_Rewrite_1_3_Printable.pdf">download</a></td>
-            <td align="center">️<a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/en/main_en.pdf">download</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/en/printable_en.pdf">download</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/en/economy_printable_en.pdf">download</a></td>
-        </tr>
-        <tr>
-            <td>🇵🇱 Polski</td>
-            <td align="center">100%</td>
-            <td align="center">100%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Polski_Rules_Rewrite_1_3.pdf">pobierz</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Polski_Rules_Rewrite_1_3_Printable.pdf">pobierz</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/pl/main_pl.pdf">️pobierz</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/pl/printable_pl.pdf">pobierz</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/pl/economy_printable_pl.pdf">pobierz</a></td>
-        </tr>
-        <tr>
-            <td>🇪🇸 Español</td>
-            <td align="center">100%</td>
-            <td align="center">0%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Espanol_Rules_Rewrite_1_3.pdf">descargar</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Espanol_Rules_Rewrite_1_3_Printable.pdf">descargar</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/es/main_es.pdf">️descargar</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/es/printable_es.pdf">descargar</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/es/economy_printable_es.pdf">descargar</a></td>
-        </tr>
-        <tr>
-            <td>🇫🇷 Français</td>
-            <td align="center">100%</td>
-            <td align="center">100%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Francais_Rules_Rewrite_1_3.pdf">télécharger</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Francais_Rules_Rewrite_1_3_Printable.pdf">télécharger</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/fr/main_fr.pdf">️télécharger</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/fr/printable_fr.pdf">télécharger</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/fr/economy_printable_fr.pdf">télécharger</a></td>
-        </tr>
-        <tr>
-            <td>🇷🇺 Русский</td>
-            <td align="center">100%</td>
-            <td align="center">0%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Russkiy_Rules_Rewrite_1_3.pdf">скачать</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Russkiy_Rules_Rewrite_1_3_Printable.pdf">скачать</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ru/main_ru.pdf">️скачать</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ru/printable_ru.pdf">скачать</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ru/economy_printable_ru.pdf">скачать</a></td>
-        </tr>
-        <tr>
-            <td>🇺🇦 Українська</td>
-            <td align="center">90%</td>
-            <td align="center">0%</td>
-            <td align="center">—</td>
-            <td align="center">—</td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ua/main_ua.pdf">️завантажити</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ua/printable_ua.pdf">завантажити</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/ua/economy_printable_ua.pdf">завантажити</a></td>
-        </tr>
-        <tr>
-            <td>🇩🇪 Deutsch</td>
-            <td align="center">100%</td>
-            <td align="center">100%</td>
-            <td align="center">—</td>
-            <td align="center">—</td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/de/main_de.pdf">️speichern</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/de/printable_de.pdf">speichern</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/de/economy_printable_de.pdf">speichern</a></td>
-        </tr>
-        <tr>
-            <td>🇨🇿 Čeština</td>
-            <td align="center">100%</td>
-            <td align="center">0%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Cestina_Rules_Rewrite_1_3.pdf">stáhnout</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Cestina_Rules_Rewrite_1_3_Printable.pdf">stáhnout</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/cs/main_cs.pdf">stáhnout</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/cs/printable_cs.pdf">stáhnout</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/cs/economy_printable_cs.pdf">stáhnout</a></td>
-        </tr>
-        <tr>
-            <td>🇮🇱 עברית</td>
-            <td align="center">100%</td>
-            <td align="center">0%</td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Ivrit_Rules_Rewrite_1_3.pdf">הורדה</a></td>
-            <td align="center"><a href="https://github.com/Heegu-sama/Homm3BG/releases/download/v1.3/Heroes3_Ivrit_Rules_Rewrite_1_3_Printable.pdf">הורדה</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/he/main_he.pdf">הורדה</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/he/printable_he.pdf">הורדה</a></td>
-            <td align="center"><a href="https://raw.githubusercontent.com/qwrtln/Homm3BG-build-artifacts/he/economy_printable_he.pdf">הורדה</a></td>
-        </tr>
-    </tbody>
-</table>
+**Join us [on Discord](https://discord.gg/rZ7rfuX7) to help with translating or just to get in touch!**
 
 <details>
 <summary>Click to see the details regarding every version</summary>
@@ -152,7 +39,7 @@ Its aim is to explain the rules clearly and concisely, and should eventually hav
 
 ### 🤔 Why?
 
-Please see the original thread on [BoardGameGeek](https://boardgamegeek.com/thread/3235221/rule-book-rewrite-project/page/1).
+Please see the original thread on [BoardGameGeek](https://boardgamegeek.com/thread/3426675/rulebook-rewrite-project).
 
 The content in the official English rule book is, simply put, insufficient as a teaching tool for the game or as a general rules reference.
 If you read the thread linked above you should understand how frustrating this has been for me.

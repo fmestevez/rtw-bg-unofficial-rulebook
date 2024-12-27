@@ -81,6 +81,7 @@
 
 \def\images{\_assets/images}
 \def\layout{\_assets/layout}
+\def\fonts{\_assets/fonts}
 
 \def\repourl{https://github.com/fmestevez/rtw-bg-unofficial-rulebook}
 \def\bggthreadurl{https://boardgamegeek.com/thread/3426675/rulebook-rewrite-project}
@@ -120,34 +121,29 @@
 \enspace SECTION \thesection\enspace}
 {8pt}
 {\Huge\bfseries\filcenter\uppercase}
-%Create section heading with graphics. Argument one is heading name, argument two is picture to use on the left.
-\providecommand{\sectionheadertext}[1]{
-  \fontfamily{ptm}\selectfont{
-    \color{antiquewhite} \section*{\MakeUppercase{#1}}
-  }
-}
+
 \newcommand{\addsection}[3][1]{
-  \def\oneliner{\equal{#1}{1}}
-  \vspace*{-5em}
+  \vspace*{-5em} % Adjust vertical positioning
   \hspace*{-1em}
   \makebox[0pt][l]{
-  \raisebox{-\totalheight}[0pt][7pt]{
-    \begin{tikzpicture}
-      \draw (0, 0) node[inner sep=0] {\includegraphics[width=\linewidth, height=0.2\linewidth]{\layout/section_heading.png}};
-      \draw (-6.2, 0) node {\includegraphics[width=0.125\textwidth]{#3}};
-    \end{tikzpicture}
+    \raisebox{-\totalheight}[0pt][0pt]{
+      \begin{tikzpicture}
+        % Insert the banner image
+        \node[anchor=north] (banner) at (0, 0) {\includegraphics[width=\columnwidth, keepaspectratio]{\layout/section_heading.png}};
+        % Place the section title inside the banner
+        \node[align=center, text=white, font=\fontsize{16}{16}\selectfont\bfseries] at ([yshift=-1cm] banner.center) {#2};
+      \end{tikzpicture}
     }
   }
-  \begin{fullwidth}[leftmargin=0.16\textwidth, outermargin=0.16\textwidth, innermargin=0.16\textwidth]
+  % Reserve space below the banner to prevent overlap with body text
+  \vspace{12em} % Adjust spacing to push body text further down
+  \begin{fullwidth}[outermargin=0.16\textwidth, innermargin=0.16\textwidth]
     \begin{center}
       \vspace*{\lang_header_adjustment}
-      \ifthenelse{\oneliner}{}{\vspace{-13pt}}
-      \sectionheadertext{#2}
       \cleardoublepage\phantomsection\addcontentsline{toc}{section}{\protect\numberline{}\mbox{#2}}
     \end{center}
   \end{fullwidth}
   \vspace{1.75em}
-  \ifthenelse{\oneliner}{}{\vspace{-13pt}}
 }
 %End of create section heading.
 
@@ -196,37 +192,6 @@
     \end{pgfonlayer}
   \end{tikzpicture}
 }
-
-% Create Heroes-styled framed canvas for a table. Accepts three arguments:
-% 1) [Optional] Drop shadow description. Use [] as the first arg to delete it.
-% 2) Height specified in verses (lines of text)
-% 3) Table contents like title and tabularx environment
-\newcommand{\hommtable}[3][shade, blur shadow={shadow opacity=15}]{
-  \begin{tikzpicture}
-    \textlang{english}{\draw (0, 0) node[inner sep=0] {\makebox[\linewidth][c]{\picdims[width=\linewidth]{\linewidth}{#2\baselineskip}{\layout/table-background.jpg}}};}
-    \draw [bordermidyellow, thick] ([xshift=+1pt, yshift=-1pt] current bounding box.north west) rectangle ([xshift=-1pt, yshift=1pt] current bounding box.south east);
-    \draw [borderoutyellow, thick] (current bounding box.north west) rectangle (current bounding box.south east);
-    \draw [borderinyellow, thick] ([xshift=+3pt, yshift=-3pt] current bounding box.north west) rectangle ([xshift=-3pt, yshift=3pt] current bounding box.south east);
-    \node at (current bounding box.center) {
-      \begin{varwidth}{0.95\linewidth}
-      \notefont{
-        \bgroup
-        \color{arylideyellow}
-        \hypersetup{linkcolor=amber}
-        \setlength{\tabcolsep}{0.3em}
-        #3
-        \egroup
-      }
-      \end{varwidth}
-    };
-    \begin{pgfonlayer}{background}
-      \begin{scope}[blend mode=multiply]
-        \draw [#1] (current bounding box.north west) rectangle (current bounding box.south east);
-      \end{scope}
-    \end{pgfonlayer}
-  \end{tikzpicture}
-}
-% End of Heroes-styled canvas definition.
 
 \definecolor{darkcellborder}{HTML}{634831}
 \definecolor{darkcellbg}{HTML}{20160C}
@@ -361,6 +326,6 @@
 \clearpage
 
 \include{\sections/introduction.tex}
-% \include{\sections/back_cover.tex}
+\include{\sections/back_cover.tex}
 
 \end{document}
